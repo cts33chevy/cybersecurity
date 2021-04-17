@@ -1,3 +1,16 @@
+#!/bin/bash
+​#Check to see if user is Root
+#
+#Updating
+apt-get update
+#upgrading
+apt-get upgrade
+#
+apt install docker.io &&
+#installs docker to box
+#
+apt install python3-pip &&
+#installs python
 #
 apt install docker &&
 #installs docker python module
